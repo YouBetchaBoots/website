@@ -1,4 +1,17 @@
 body {
   background-color: DarkSlateGray;
   color: DarkOrange;
+  font-family: Verdana;
+}
+h1 {
+  color: black;
+}
+h3 {
+  color:white;
+}
+p {
+  color:white;
+}
+li {
+  color:white;
 }
