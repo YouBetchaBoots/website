@@ -1,17 +1,17 @@
 body {
   background-color: DarkSlateGray;
   color: DarkOrange;
-  font-family: Verdana;
+  font-family: 'Source Sans Pro',Verdana;
 }
 h1 {
   color: black;
 }
 h3 {
-  color:white;
+  color: white;
 }
 p {
-  color:white;
+  color: white;
 }
 li {
-  color:white;
+  color: white;
 }
