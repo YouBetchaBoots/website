@@ -8,6 +8,13 @@ h1 {
   color: black;
   text-align: left;
 }
+.center {
+  text-align: center;
+  line-height: 6;
+  font-size: 45px;
+  font-weight: bold;
+
+}
 h2 {
   text-align: center;
 }
@@ -21,11 +28,17 @@ li {
   color: white;
 }
 
-.left {
-  float: left;
+.right {
+  text-align: right;
 }
-
-.animated-gif {
-  width: 10%;
-  height: auto;
+.left {
+  text-align: left;
+}
+.animatedright {
+  width: 15%;
+  float: right;
+}
+.animatedleft {
+  width: 15%;
+  float: left;
 }
