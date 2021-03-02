@@ -5,6 +5,7 @@ body {
 }
 h1 {
   color: black;
+  text-align: center;
 }
 h2 {
   text-align: center;
@@ -18,7 +19,12 @@ p {
 li {
   color: white;
 }
-img {
-  width="560"
-  height="315"
+
+.left {
+  float: left;
+}
+
+.animated-gif {
+  width: 10%;
+  height: auto;
 }
