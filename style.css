@@ -1,11 +1,12 @@
 body {
   background-color: DarkSlateGray;
   color: DarkOrange;
-  font-family: 'Source Sans Pro',Verdana;
+  font-family: 'Special Elite';
   margin: 2%
 }
 h1 {
   color: black;
+  text-align: left;
 }
 h2 {
   text-align: center;
