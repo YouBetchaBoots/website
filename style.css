@@ -4,6 +4,14 @@ body {
   font-family: 'Special Elite';
   margin: 2%
 }
+.animatedright {
+  width: 15%;
+  float: right;
+}
+.animatedleft {
+  width: 15%;
+  float: left;
+}
 h1 {
   color: black;
   text-align: left;
@@ -30,26 +38,35 @@ p {
   color: white;
   font-size: 30px;
 }
+img {
+  size: 100%;
+}
 .pfontsize {
-  font-size: 50px;
+  font-size: 40px;
 }
 .outsetborder {
   border-style: outset;
   border-color: DarkOrange;
   border-width: 5px;
 }
-
 .right {
   float: right;
+  padding: 5px;
 }
-.left {
-  float: left;
-}
-.animatedright {
-  width: 15%;
+.columnr {
   float: right;
+  width: 49%;
 }
-.animatedleft {
-  width: 15%;
+.columnl {
   float: left;
+  width: 49%;
+}
+img {
+        width: 100%;
+        height: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
