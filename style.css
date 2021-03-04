@@ -4,31 +4,67 @@ body {
   font-family: 'Special Elite';
   margin: 2%
 }
-.animatedright {
-  width: 15%;
-  float: right;
-}
 .animatedleft {
   width: 15%;
   float: left;
 }
+.animatedmiddle {
+  float: left;
+}
+.animatedright {
+  width: 15%;
+  float: right;
+}
 h1 {
+  font-size: 65px;
+  color: black;
+  background-color: OrangeRed;
+  padding: 5px;
+  border: 5px solid black;
+  margin-top: 8%;
+}
+.subheader {
   color: black;
   text-align: left;
   font-size: 50px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+nav {
+  /* max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 0; */
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+  text-decoration: none;
+  text-indent: 60px;
+}
+
+nav ul li a:hover {
+  background-color: #111111;
 }
 .justify {
   text-align: justify;
   text-align: center;
-}
-.center {
-  text-align:center;
-  font-size: 65px;
-  background-color: OrangeRed;
-  padding-top: 15px;
-  margin-right: 15%;
-  margin-left: 15%;
-  border: solid black;
+  line-height: 1.5;
+  margin-top: 20%;
 }
 h2 {
   text-align: center;
@@ -64,10 +100,7 @@ p {
 }
 .listspace {
   line-height: 1.5;
-}
-.linespace1 {
-  line-height: 1.5;
-  margin-top: 15%;
+  list-style-type: none;
 }
 img {
   size: 100%;
@@ -91,10 +124,6 @@ img {
 .columnl {
   float: left;
   width: 49%;
-}
-img {
-        width: 100%;
-        height: auto;
 }
 .row:after {
   content: "";
