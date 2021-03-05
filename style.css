@@ -31,6 +31,9 @@ h1 {
   border: 5px solid black;
   margin-top: 10%;
 }
+.linespace {
+  letter-spacing: .5px;
+}
 .subheader {
   color: black;
   text-align: left;
@@ -123,6 +126,9 @@ p {
   border-style: outset;
   border-color: DarkSlateGray;
   border-width: 10px;
+}
+.imgml {
+  margin-left: 8%;
 }
 .columnr {
   float: right;
