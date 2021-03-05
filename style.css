@@ -230,3 +230,13 @@ input[name="r"]{
   font-size: 60px;
   color: black;
 }
+.lastpagegif {
+  margin-left: 32%;
+  margin-bottom: 10%;
+  border-style: outset;
+  border-color: DarkSlateGray;
+  border-width: 10px;
+}
+.iconpad {
+  padding-right: 1%;
+}
